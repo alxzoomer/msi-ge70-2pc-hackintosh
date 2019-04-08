@@ -48,6 +48,7 @@ Kext `USBInjectAll.kext` must be installed.
   * AppleALC.kext - Native macOS HD audio for not officially supported codecs.
   * NoVPAJpeg.kext - Workarounds Quicklook issues on 10.14 when using macmodels with IGPU on CPUs without IGPU. Can be used as an alternative to MacPro6,1 model. Possible not required for correct work on this laptop.
 * ApplePS2SmartTouchPad.kext - keyboard and Elan/Synaptics touchpad driver.
+  * Changed option in the `ApplePS2SmartTouchPad.kext/Contents/PlugIns/ApplePS2Keyboard.kext/Contents/Info.plist` config file for the `Fn keys Layout` parameter from `NONE` to `MSI`.
 * AtherosE2200Ethernet.kext - network card driver.
 * CodecCommander.kext - fix sound after sleep.
 * corecapture.kext and IO80211Family.kext - Qualcomm Atheros AR928x driver. Remove both if you have another card.
