@@ -243,48 +243,6 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>1337</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>2776</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>1450</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>979</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>281</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
 		</array>
@@ -309,9 +267,9 @@
 				<key>APSN</key>
 				<true/>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
-				<true/>
+				<false/>
 				<key>PluginType</key>
 				<true/>
 			</dict>
