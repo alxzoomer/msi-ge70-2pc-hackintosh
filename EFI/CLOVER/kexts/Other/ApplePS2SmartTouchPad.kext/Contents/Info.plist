@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14F2009</string>
+	<string>14F27</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,11 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4.6.8</string>
+	<string>4.6.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>4.6.8</string>
+	<string>4.6.5</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -873,17 +873,11 @@
 					<integer>22</integer>
 					<key>DisablePhysicalClicks</key>
 					<false/>
-					<key>EnablePointingOnVirtualButtonArea</key>
-					<false/>
 					<key>VirtualMiddleButton</key>
 					<false/>
 				</dict>
 				<key>Dragging</key>
 				<dict>
-					<key>DragFingerIDToUseForData</key>
-					<integer>1</integer>
-					<key>DragFingersNum</key>
-					<integer>7</integer>
 					<key>DragLock</key>
 					<false/>
 					<key>Enable</key>
@@ -1069,20 +1063,7 @@
 					<key>HIDTrackpadAccelLevel</key>
 					<integer>8</integer>
 					<key>PointerCustomAcceleration</key>
-					<dict>
-						<key>ELANv2</key>
-						<integer>16</integer>
-						<key>ELANv3</key>
-						<integer>16</integer>
-						<key>ELANv4</key>
-						<integer>12</integer>
-						<key>FocalTech</key>
-						<integer>12</integer>
-						<key>Synaptics</key>
-						<integer>16</integer>
-					</dict>
-					<key>PointerCustomAcceleration2</key>
-					<dict/>
+					<integer>16</integer>
 					<key>PointerResolution</key>
 					<dict>
 						<key>ELANv2</key>
@@ -1234,14 +1215,12 @@
 						<key>SlingEdgeScroll</key>
 						<false/>
 					</dict>
-					<key>InertialScrollDelay</key>
-					<integer>8</integer>
-					<key>InertialScrollDepth</key>
-					<integer>3</integer>
+					<key>HIDTrackpadScrollAccelLevel</key>
+					<integer>4</integer>
+					<key>InertialScrollLevel</key>
+					<integer>2</integer>
 					<key>NoInertiaForHScroll</key>
 					<true/>
-					<key>ScrollAccelDelay</key>
-					<integer>3</integer>
 					<key>ScrollDirectionSamples</key>
 					<dict>
 						<key>ELANv2</key>
@@ -1259,31 +1238,14 @@
 						<key>SynapticsClickPad</key>
 						<integer>5</integer>
 					</dict>
-					<key>ScrollLevelAtBoot</key>
-					<integer>0</integer>
 					<key>ScrollLevelFactor</key>
-					<integer>2</integer>
+					<integer>1</integer>
 					<key>ScrollLevelGranularity</key>
-					<integer>50</integer>
+					<integer>70</integer>
 					<key>ScrollMaxIdleDetectTimeout</key>
 					<integer>500</integer>
 					<key>ScrollMaxIdleStateDelta</key>
 					<integer>10</integer>
-					<key>ScrollResolution</key>
-					<dict>
-						<key>ELANv2</key>
-						<integer>200</integer>
-						<key>ELANv3</key>
-						<integer>300</integer>
-						<key>ELANv4</key>
-						<integer>400</integer>
-						<key>FocalTech</key>
-						<integer>400</integer>
-						<key>MouseMode</key>
-						<integer>200</integer>
-						<key>Synaptics</key>
-						<integer>400</integer>
-					</dict>
 					<key>ScrollStopDetectSamples</key>
 					<integer>3</integer>
 					<key>SlingScrollStartTimeOut</key>
@@ -1296,13 +1258,13 @@
 				<key>Swiping</key>
 				<dict>
 					<key>3FingerSwipeDownAction</key>
-					<integer>13</integer>
+					<integer>1</integer>
 					<key>3FingerSwipeLeftAction</key>
-					<integer>12</integer>
-					<key>3FingerSwipeRightAction</key>
 					<integer>11</integer>
+					<key>3FingerSwipeRightAction</key>
+					<integer>12</integer>
 					<key>3FingerSwipeUpAction</key>
-					<integer>13</integer>
+					<integer>3</integer>
 					<key>3FingerSwipes</key>
 					<true/>
 					<key>4FingerSwipeDownAction</key>
@@ -1347,9 +1309,9 @@
 				<key>Tapping</key>
 				<dict>
 					<key>12TapTimeOut</key>
-					<integer>180</integer>
+					<integer>150</integer>
 					<key>1FClickTimeOut</key>
-					<integer>140</integer>
+					<integer>130</integer>
 					<key>1FTapPressure</key>
 					<dict>
 						<key>ELANv2</key>
@@ -1392,7 +1354,7 @@
 					<key>MulFingTapMaxDelta</key>
 					<integer>55</integer>
 					<key>MulFingTapTimeOut</key>
-					<integer>200</integer>
+					<integer>180</integer>
 					<key>TapMaxDelta</key>
 					<integer>100</integer>
 					<key>TrackpadTappingCorners</key>
@@ -1418,9 +1380,9 @@
 		<key>com.apple.kpi.mach</key>
 		<string>8.0.0</string>
 		<key>org.emlydinesh.driver.ApplePS2Controller</key>
-		<string>4.6.8</string>
+		<string>4.6.5</string>
 		<key>org.emlydinesh.driver.ApplePS2Keyboard</key>
-		<string>4.6.8</string>
+		<string>4.6.5</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Safe Boot</string>
